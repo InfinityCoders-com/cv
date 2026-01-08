@@ -1,2 +1,4 @@
 # infinitycoders.github.io
-github ic repo 
+
+CV
+[Resume](https://infinitycoders-com.github.io/cv/)
