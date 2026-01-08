@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhishek Srivastava - Resume</title>
+
+  <style>
+    :root {
+      --primary: #1f3c88;
+      --secondary: #444;
+      --light: #f7f9fc;
+      --border: #e0e0e0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--light);
+      color: #222;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    header {
+      border-bottom: 3px solid var(--primary);
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 34px;
+      color: var(--primary);
+    }
+
+    header h2 {
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--secondary);
+      margin-top: 4px;
+    }
+
+    .contact {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .contact span {
+      margin-right: 15px;
+      display: inline-block;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    section h3 {
+      font-size: 20px;
+      color: var(--primary);
+      margin-bottom: 10px;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 5px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px 20px;
+      font-size: 14px;
+    }
+
+    .experience-item {
+      margin-bottom: 20px;
+    }
+
+    .experience-item h4 {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .experience-item span {
+      font-size: 13px;
+      color: #666;
+    }
+
+    .projects {
+      columns: 2;
+      column-gap: 40px;
+      font-size: 14px;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: right;
+      font-size: 13px;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      .projects {
+        columns: 1;
+      }
+
+      header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Abhishek Srivastava</h1>
+      <h2>Software Development Engineer – SDE 3</h2>
+
+      <div class="contact">
+        <span>📍 Indirapuram, Ghaziabad, UP</span>
+        <span>📧 abhishek8developer@gmail.com</span>
+        <span>📞 9999474919 / 9599346736</span>
+      </div>
+    </header>
+
+    <section>
+      <h3>Professional Summary</h3>
+      <p>
+        Senior React Developer with 7+ years of experience building scalable,
+        high-performance web and mobile applications. Expertise in React.js,
+        React Native, TypeScript, Redux, and Next.js with a strong focus on
+        performance optimization, clean architecture, and intuitive user
+        experiences. Experienced in Agile environments, mentoring developers,
+        and delivering business-aligned frontend solutions.
+      </p>
+    </section>
+
+    <section>
+      <h3>Core Skills</h3>
+      <div class="skills-grid">
+        <div><strong>Frontend:</strong> React.js, React Native, Next.js, Redux</div>
+        <div><strong>Languages:</strong> JavaScript (ES6+), TypeScript, HTML, CSS</div>
+        <div><strong>UI:</strong> Material UI, Ant Design, Figma</div>
+        <div><strong>Testing:</strong> Jest, React Testing Library, Cypress</div>
+        <div><strong>Build:</strong> Webpack, Vite, Babel, CI/CD</div>
+        <div><strong>Backend:</strong> Node.js, Express, REST, GraphQL</div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Professional Experience</h3>
+
+      <div class="experience-item">
+        <h4>Senior React Developer – SDE 3</h4>
+        <span>Fareye Technologies Pvt Ltd, Noida | Feb 2019 – Present</span>
+        <ul>
+          <li>Led frontend development for enterprise React + TypeScript applications.</li>
+          <li>Built in-house UI library with theming and internationalization.</li>
+          <li>Improved initial load time by 35% using code splitting and lazy loading.</li>
+          <li>Implemented Nx & Yarn workspaces for shared components.</li>
+          <li>Mentored junior developers and enforced best practices.</li>
+          <li>Integrated REST & GraphQL APIs with optimized data fetching.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h4>Junior Web Developer – SDE 1</h4>
+        <span>Excellence Technologies, Noida | Mar 2017 – Feb 2019</span>
+        <ul>
+          <li>Worked on multiple client-facing web applications.</li>
+          <li>Used React, Next.js, Node.js, and SQL-based backends.</li>
+          <li>Projects included analytics dashboards and gaming admin systems.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <h4>Content Publisher – Adobe Experience Manager</h4>
+        <span>Wunderman Publications, Gurgaon | Aug 2016 – Dec 2016</span>
+        <ul>
+          <li>Developed web portals for Ford Motor Company across 68 countries.</li>
+          <li>Optimized HTML & CSS for faster page loads.</li>
+          <li>Trained colleagues on HTML and CSS best practices.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h3>Technology Stack</h3>
+      <p>
+        React.js, TypeScript, React Native, Node.js, Next.js, MySQL, Redux,
+        Google Maps, Payment Gateways, Nx, Webpack, Lerna, AWS EC2, Nginx,
+        GitHub CI/CD, Cypress, Jest, Grafana.
+      </p>
+    </section>
+
+    <section>
+      <h3>Projects</h3>
+      <div class="projects">
+        <p>HZL – iOS & Android App</p>
+        <p>HZL Transportation – hzl.fareye.co</p>
+        <p>SalesItv – app.salesitv.com</p>
+        <p>Averpoint – averpoint.com</p>
+        <p>SideField – Microservices, React TS</p>
+        <p>Mobile Nurse – React TypeScript</p>
+        <p>Halal Plates – React</p>
+        <p>PikPart – Full Stack, Project Manager (8 members)</p>
+        <p>Construct – Full Stack Web App</p>
+        <p>Intuit ProConnect – Tax Calculation Module</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>Dated: 1st Sep 2025 | Place: New Delhi</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
